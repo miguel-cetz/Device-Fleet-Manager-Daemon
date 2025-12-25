@@ -1,0 +1,12 @@
+# gRPC communication engine
+grpcio>=1.50.0
+
+# gRPC code generation tools (required to compile the .proto)
+grpcio-tools>=1.50.0
+
+# Professional TUI visual interface
+rich>=12.0.0
+
+#  Google's Protocol Buffers
+protobuf>=4.21.0
+

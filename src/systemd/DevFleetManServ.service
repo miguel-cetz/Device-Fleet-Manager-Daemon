@@ -1,0 +1,15 @@
+[Unit]
+Description=Device Fleet Management Service
+After=network.target
+
+[Service]
+Type=simple
+# Change this entry to point to the full path name of the executable that will be run!
+ExecStart=/media/sf_development/GoogleTest/src/Cxx/bin/DevFleetManServ
+Restart=always
+# Send std::cout logs directly to the system log
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
